@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#303F9F</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+    <style name="BasicButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">#E0E0E0</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_alignStart">@+id/buildButton</item>
+        <item name="android:layout_alignEnd">@+id/buildButton</item>
+        <item name="android:onClick">openApp</item>
+    </style>
+</resources>
