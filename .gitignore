@@ -27,4 +27,5 @@ proguard/
 *.log
 
 # Intellij Stuff
-.idea
+*.idea
+*.iml
