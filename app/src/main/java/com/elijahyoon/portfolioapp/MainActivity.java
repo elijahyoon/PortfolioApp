@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 
         switch (view.getId()) {
             case R.id.spotifyButton:
-                Toast.makeText(context, "Spotify app coming soon!", duration).show();
+                Toast.makeText(context, "Movies app coming soon!", duration).show();
                 break;
             case R.id.scoresButton:
                 Toast.makeText(context, "Scores app coming soon!", duration).show();
